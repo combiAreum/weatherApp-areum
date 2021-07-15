@@ -39,4 +39,3 @@ export default class extends React.Component {
     return isLoading ? <Lodaing /> : <Weather temp={Math.round(temp)} />;
   }
 }
->>>>>>> c5c9006 (getLocation and getTemperature)
